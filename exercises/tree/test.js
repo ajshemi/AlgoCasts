@@ -29,7 +29,8 @@ describe('Node', () => {
   });
 });
 
-describe.skip('Tree', () => {
+// describe.skip('Tree', () => { . //remove skip before running test
+  describe('Tree', ()=> {
   test('starts empty', () => {
     const t = new Tree();
     expect(t.root).toEqual(null);
